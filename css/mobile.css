@@ -1,0 +1,118 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --organe: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --verydarkblue: hsl(234, 12%, 34%);
+    --grayishblue: hsl(229, 6%, 66%);
+    --lightgray: hsl(0, 0%, 98%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: var(--lightgray);
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grayishblue);
+}
+.header-section {
+    width: 100%;
+    min-width: 375px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.header-div {
+    width: 90%;
+    min-width: 337.5px;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.header-div h2 {
+    color: var(--verydarkblue);
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.header-div h1 {
+    color: var(--verydarkblue);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.header-div .header-description {
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 3.8rem;
+}
+.details-description {
+    width: 100%;
+    min-width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divbox {
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-bottom: 3rem;
+    width: 80%;
+    min-width: 300px;
+    max-width: 330px;
+    height: 200px;
+    border-top: 2px;
+    box-shadow: 0 5px 30px var(--grayishblue);
+    border-top: 3px solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: start;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divbox h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    color: var(--verydarkblue);
+    width: 80%;
+}
+.divbox p {
+    font-size: 1.5rem;
+    display: inline;
+    line-height: 2rem;
+}
+.divbox img {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+}
+.cyan-box {
+    border-top: 5px solid var(--cyan);
+}
+.red-box {
+    border-top: 5px solid var(--red);
+}
+.orange-box {
+    border-top: 5px solid var(--organe);
+}
+.blue-box {
+    border-top: 5px solid var(--blue);
+}

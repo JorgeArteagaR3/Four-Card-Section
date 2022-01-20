@@ -1,0 +1,30 @@
+.details-description {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+.red-box {
+    align-self: flex-start;
+    position: relative;
+    margin: 3.5rem 3rem;
+}
+.orange-box {
+    align-self: flex-end;
+    position: absolute;
+    margin: 3.5rem 3rem;
+}
+.header-div {
+    width: 36%;
+}
+.header-div h1 {
+    font-size: 3rem;
+}
+.header-div h2 {
+    font-size: 3rem;
+}
+.header-div .header-description {
+    line-height: 2.5rem;
+}
+.header-section {
+    margin-bottom: 1rem;
+}
